@@ -10,17 +10,23 @@
     <view class="daily-consume">
       
     </view>
-    <!-- <view class="test_2">
+    <view class="daily-generation">
       
-    </view> -->
+    </view>
   </view>
+
+
+
+
+
+  
   <view class="daily">
-    <view class="daily-consume">
+    <view class="d2">
       
     </view>
   </view>
   <view class="daily">
-    <view class="daily-consume">
+    <view class="d2">
       
     </view>
   </view>
