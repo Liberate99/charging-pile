@@ -34,13 +34,13 @@
 
   <view class="daily">
     <view class="d2">
-      
+      <text>图片</text>
     </view>
   </view>
 
   <view class="daily">
     <view class="d2">
-      
+      <text>充电%</text>
     </view>
   </view>
 
