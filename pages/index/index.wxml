@@ -21,12 +21,12 @@
     </view>
   </view>
   
-  <view class="daily_price">
-    <view class="d2">
-      <view>
-        <text>今日电价</text>
-      </view>
+  <view class="current_price">
+    <view class='current_price_view'>
+      <image mode='aspectFill' src='../../images/current_price.png'></image>
+      <text class='current_price_text'>当前电价</text>
     </view>
+    <label>10.98</label>
   </view>
 
   

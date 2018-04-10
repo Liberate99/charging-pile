@@ -26,7 +26,10 @@
       <label class='check_text'>查询历史流水</label>
     </view>
     <view class='block'>
-      dd
+      累计发电
+    </view>
+    <view class='block'>
+      累计用电
     </view>
   </view>
 </view>
