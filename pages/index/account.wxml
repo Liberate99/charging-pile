@@ -1,27 +1,22 @@
-<view class="container">
-  <view class="daily">
-    
-    <view class="daily-consume">
-      
+<view class='container'>
+  <view class='under'>
+    <view class='account_block'>
+      头像
     </view>
-    <view class="daily-generation">
-      
+    <view class='block'>
+      余额
     </view>
-  </view>
-
-  
-  <view class="daily">
-    <view class="d2">
-      
+    <view class='block'>
+      充值
     </view>
-  </view>
-  <view class="daily">
-    <view class="d2">
-      
+    <view class='block'>
+      体现
     </view>
-  </view>
-
-  <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
+    <view class='block'>
+      查询历史流水
+    </view>
+    <view class='block'>
+      dd
+    </view>
   </view>
 </view>
