@@ -1,19 +1,29 @@
-<view class='container'>
+<view style='height: {{windowHeight}}px; display: flex; flex-direction: column;align-items: center;  padding: 1rpx 0;box-sizing: border-box; background-color: #F4F5F8;'>
   <view class='under'>
+
     <view class='account_block'>
-      头像
+      <image mode="aspectFill" src='../../images/account.jpg'></image>
+      <view class='account_info'>
+        <label class='account_name'>豆酱</label>
+        <label class='account_intro'>简介：暂无介绍</label>
+      </view>
     </view>
-    <view class='block'>
-      余额
+      
+    <view class='balance_block'>
+      <image mode='aspectFill' src='../../images/yuan.png'></image>
+      <label class='balance_text'>余额</label>
+      <label class='balance_number'>213.00</label>
+      <label style='margin-left: 10rpx; margin-top: 32rpx; color: gray; font-size: 85%;'>元</label>
     </view>
-    <view class='block'>
+    <!-- <view class='block'>
       充值
     </view>
     <view class='block'>
       体现
-    </view>
-    <view class='block'>
-      查询历史流水
+    </view> -->
+    <view class='check_block'>
+      <image mode='aspectFill' src='../../images/check.png'></image>
+      <label class='check_text'>查询历史流水</label>
     </view>
     <view class='block'>
       dd

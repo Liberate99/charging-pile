@@ -1,3 +1,4 @@
+
 // pages/index/account.js
 Page({
 
@@ -5,14 +6,27 @@ Page({
    * 页面的初始数据
    */
   data: {
-  
+    windowWidth: 0,
+    windowHeight: 0,
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-  
+    var that = this;
+    wx.getSystemInfo({
+      success: function (res) {
+        var win_width = res.windowWidth;
+        var win_height = res.windowHeight;
+        that.setData({
+          windowWidth: win_width,
+          windowHeight: win_height,
+        })
+        //console.log(res.windowWidth)  
+        //console.log(res.windowHeight) 
+      }
+    })
   },
 
   /**

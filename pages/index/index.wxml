@@ -1,6 +1,5 @@
 <!--index.wxml-->
-<view class="container">
-  
+<view style="height: {{windowHeight}}px; display: flex; flex-direction: column;align-items: center;  padding: 1rpx 0;box-sizing: border-box; background-color: #F4F5F8; " >
   <view class="daily">
     <!-- <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
     <block wx:else>
@@ -22,7 +21,7 @@
     </view>
   </view>
   
-  <view class="daily">
+  <view class="daily_price">
     <view class="d2">
       <view>
         <text>今日电价</text>

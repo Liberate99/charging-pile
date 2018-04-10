@@ -3,6 +3,7 @@
     "pages/index/index",
     "pages/index/account"
   ],
+  
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",

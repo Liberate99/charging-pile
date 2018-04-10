@@ -1,12 +1,13 @@
 //index.js
 //获取应用实例
 const app = getApp()
-
 Page({
   data: {
     motto: '.',
     userInfo: {},
     hasUserInfo: false,
+    windowWidth: 0,
+    windowHeight: 0,
     canIUse: wx.canIUse('button.open-type.getUserInfo')
   },
   //事件处理函数
@@ -42,6 +43,19 @@ Page({
         }
       })
     }
+    var that = this;
+    wx.getSystemInfo({
+      success: function (res) {
+        var win_width = res.windowWidth;
+        var win_height = res.windowHeight;
+        that.setData({
+          windowWidth: win_width,
+          windowHeight: win_height,
+        })
+        //console.log(res.windowWidth)  
+        //console.log(res.windowHeight) 
+      }
+    })   
   },
   getUserInfo: function(e) {
     console.log(e)
