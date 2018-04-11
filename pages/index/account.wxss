@@ -28,10 +28,12 @@
 }
 
 .account_name {
+  margin-top: 8rpx;
   font-size: 90%;
 }
 
 .account_intro {
+  margin-top: 8rpx;
   font-size: 80%;
   color: gray;
 }
@@ -54,7 +56,8 @@
   margin-top: 32rpx;
   margin-left: 30rpx;
   font-size: 85%;
-  font-weight: lighter;
+  color: gray;
+  font-weight: normal;
 }
 
 .balance_number {
@@ -83,7 +86,8 @@
   margin-top: 32rpx;
   margin-left: 26rpx;
   font-size: 85%;
-  font-weight: lighter;
+  color: gray;
+  font-weight: normal;
 }
 
 .total_generation_block {
@@ -104,7 +108,8 @@
   margin-top: 32rpx;
   margin-left: 26rpx;
   font-size: 85%;
-  font-weight: lighter;
+  color: gray;
+  font-weight: normal;
 }
 
 .totla_consume_block {
@@ -118,7 +123,8 @@
   margin-top: 32rpx;
   margin-left: 26rpx;
   font-size: 85%;
-  font-weight: lighter;
+  color: gray;
+  font-weight: normal;
 }
 
 .totla_consume_block image {

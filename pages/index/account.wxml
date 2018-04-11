@@ -2,10 +2,10 @@
   <view class='under'>
 
     <view class='account_block'>
-      <image mode="aspectFill" src='../../images/account.jpg'></image>
+      <image mode="aspectFill" src='../../images/logo.png'></image>
       <view class='account_info'>
-        <label class='account_name'>豆酱</label>
-        <label class='account_intro'>简介：暂无介绍</label>
+        <label class='account_name'>信云能源</label>
+        <label class='account_intro'>简介：基于DPOS区块链的智慧能源互联网</label>
       </view>
     </view>
       
