@@ -22,7 +22,10 @@
   </view>
 
   <view class="picture_view">
-    <image mode='aspectFill' src='../../images/th.jpeg'></image>
+    <!-- <image mode='aspectFill' src='../../images/th.jpeg'></image> -->
+    <view class='picture_view_above'>
+      <text class='pictur_text'>为了满足未来10到20年间可能出现在路上的数百万辆电动汽车的需求，我们需要更多的地方对它们进行充电...</text>
+    </view>
   </view>
   
   <view class="current_price">
@@ -38,12 +41,23 @@
 
   <view class="charging_view">
     <view class='charging_text_view'>
-      <image mode='aspectFill' src='../../images/charging.png'></image>
+      <image mode='aspectFill' src='../../images/charging.png'>
+      </image>
       <text class='charging_text'>已充电</text>
     </view>
+    
+    <view class='progress_box'>
+        <canvas class="progress_bg"   canvas-id="canvasProgressbg">  </canvas> 
+        <canvas class="progress_canvas"   canvas-id="canvasProgress">  </canvas> 
+        <view class="progress_text">
+            <!-- <view class="progress_dot"></view>  -->
+            <text class='progress_info'> {{progress_txt}}</text>
+        </view>     
+    </view>
+
   </view>
 
-  <view class="usermotto">
+  <!-- <view class="usermotto">
     <text class="user-motto">{{motto}}</text>
-  </view>
+  </view> -->
 </view>
