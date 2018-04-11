@@ -36,10 +36,6 @@
     </view>
   </view>
 
-  
-
-  
-
   <view class="charging_view">
     <view class='charging_text_view'>
       <image mode='aspectFill' src='../../images/charging.png'></image>

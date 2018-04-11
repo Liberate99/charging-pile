@@ -71,7 +71,7 @@
   border-radius: 15rpx;
   background-color: white;
   width: 730rpx;
-  height: 200rpx;
+  height: 250rpx;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -85,8 +85,8 @@
 }
 
 .current_price_view image {
-  width: 58rpx;
-  height: 58rpx;
+  width: 55rpx;
+  height: 55rpx;
 }
 
 .current_price_text {
