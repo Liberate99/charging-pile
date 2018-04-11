@@ -20,26 +20,30 @@
       </view>
     </view>
   </view>
+
+  <view class="picture_view">
+    <image mode='aspectFill' src='../../images/th.jpeg'></image>
+  </view>
   
   <view class="current_price">
     <view class='current_price_view'>
       <image mode='aspectFill' src='../../images/current_price.png'></image>
       <text class='current_price_text'>当前电价</text>
     </view>
-    <label>10.98</label>
+    <view class='current_price_number_view'>
+      <text class='current_price_number'>10.98</text>
+      <text class='current_price_yuan'>元</text>
+    </view>
   </view>
 
   
 
-  <view class="daily">
-    <view class="d2">
-      <text>图片</text>
-    </view>
-  </view>
+  
 
-  <view class="daily">
-    <view class="d2">
-      <text>充电%</text>
+  <view class="charging_view">
+    <view class='charging_text_view'>
+      <image mode='aspectFill' src='../../images/charging.png'></image>
+      <text class='charging_text'>已充电</text>
     </view>
   </view>
 
