@@ -152,7 +152,7 @@
 .charging_view {
   margin-top: 10rpx;
   width: 730rpx;
-  height: 360rpx;
+  height: 400rpx;
   border-radius: 15rpx;
   background-color: white;
   display: flex;
@@ -176,6 +176,7 @@
   margin-left: 4rpx;
   color: gray;
   font-weight: lighter;
+    font-size: 110%;
 }
 
 

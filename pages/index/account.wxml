@@ -24,12 +24,17 @@
     <view class='check_block'>
       <image mode='aspectFill' src='../../images/check.png'></image>
       <label class='check_text'>查询历史流水</label>
+      <image style='margin-left: 370rpx;' mode='aspectFill' src='../../images/next.png'></image>
     </view>
-    <view class='block'>
-      累计发电
+    <view class='total_generation_block'>
+      <image mode='aspectFill' src='../../images/generation.png'></image>
+      <label class='total_generation_block_text'>累计发电</label>
+      <image style='margin-left: 435rpx;' mode='aspectFill' src='../../images/next.png'></image>
     </view>
-    <view class='block'>
-      累计用电
+    <view class='totla_consume_block'>
+      <image mode='aspectFill' src='../../images/consume.png'></image>
+      <label class='total_consume_block_text'>累计用电</label>
+      <image style='margin-left: 435rpx;' mode='aspectFill' src='../../images/next.png'></image>
     </view>
   </view>
 </view>

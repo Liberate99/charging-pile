@@ -86,6 +86,48 @@
   font-weight: lighter;
 }
 
+.total_generation_block {
+  display: flex;
+  background-color: white;
+  margin-top: 3rpx;
+  height: 100rpx;
+}
+
+.total_generation_block image {
+  margin-top: 28rpx;
+  margin-left: 28rpx; 
+  width: 48rpx;
+  height: 48rpx;
+}
+
+.total_generation_block_text {
+  margin-top: 32rpx;
+  margin-left: 26rpx;
+  font-size: 85%;
+  font-weight: lighter;
+}
+
+.totla_consume_block {
+  display: flex;
+  background-color: white;
+  margin-top: 3rpx;
+  height: 100rpx;
+}
+
+.total_consume_block_text {
+  margin-top: 32rpx;
+  margin-left: 26rpx;
+  font-size: 85%;
+  font-weight: lighter;
+}
+
+.totla_consume_block image {
+  margin-top: 28rpx;
+  margin-left: 28rpx; 
+  width: 50rpx;
+  height: 50rpx;
+}
+
 .block {
   background-color: white;
   margin-top: 3rpx;
