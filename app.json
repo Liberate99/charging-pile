@@ -2,7 +2,8 @@
   "pages":[
     "pages/index/index",
     "pages/account/account",
-    "pages/check/check"
+    "pages/check/check",
+    "pages/current_price/current_price"
   ],
   
   "window":{

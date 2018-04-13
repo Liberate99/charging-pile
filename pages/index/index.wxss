@@ -83,7 +83,7 @@
   background-color: white; 
   width: 730rpx;
   height: 400rpx;
-  background-image: url('http://pan.xici.com/group5/M02/51/1A/rBABqFV7j2GEcxLNAAAAALlNYUs450.jpg/1010');
+  background-image: url('https://github.com/Liberate99/charging-pile/blob/master/images/th.png?raw=true');
   background-size: cover;
 }
 
@@ -96,6 +96,12 @@
   margin-bottom: 0rpx;
   color: white;
   font-size: 100%;
+  font-weight: bolder;
+}
+
+.pictur_text_number {
+  color: deepskyblue;
+  font-size: 120%;
   font-weight: bolder;
 }
 

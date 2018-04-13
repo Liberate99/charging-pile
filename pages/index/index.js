@@ -12,6 +12,14 @@ Page({
     per: 0.5,
     canIUse: wx.canIUse('button.open-type.getUserInfo')
   },
+  /**
+   * 跳转到历史电价详情页面
+   */
+  _toCurrentPrice: function(){
+    wx.navigateTo({
+      url: '../current_price/current_price',
+    })
+  },
   //大圆 https://www.cnblogs.com/mingforyou/p/4476183.html
   //https://segmentfault.com/a/1190000013219501
   drawProgressbg: function () {
