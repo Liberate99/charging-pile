@@ -1,0 +1,54 @@
+
+
+.analysis {
+  background-color: white;
+  width: 100%;
+  padding: 30rpx;
+}
+
+.analysis_text {
+  font-size: 85%;
+  color: gray;
+  font-weight: normal;
+}
+
+.form {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  margin-top: 10rpx;
+  width: 100%;
+  border-top: solid #F4F5F8 1rpx;
+  border-bottom: solid #F4F5F8 1rpx;
+}
+
+.formhead {
+  border: solid #F4F5F8 1rpx;
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  height: 70rpx;
+}
+
+.formhead_text_date {
+  margin-top: 13rpx;
+  font-size: 85%;
+  color: gray;
+  font-weight: normal;
+}
+
+.formhead_text_generation {
+  margin-top: 13rpx;
+  font-size: 85%;
+  color: gray;
+  font-weight: normal;
+}
+
+.data_form {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  margin-top: 0rpx;
+  width: 100%;
+  border-bottom: solid #F4F5F8 1rpx;
+}

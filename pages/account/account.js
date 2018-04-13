@@ -11,6 +11,15 @@ Page({
   },
 
   /**
+   * 历史流水跳转到check页面
+   */
+  _toCheck: function(){
+    wx.navigateTo({
+      url: '../check/check'
+    })
+  },
+
+  /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {

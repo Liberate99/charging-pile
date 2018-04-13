@@ -1,0 +1,58 @@
+<view>
+  <view class='analysis'>
+    <text class='analysis_text'>自2018年2月14日起，您的账户累计发电量1535.38kW·h，为地球减少碳排放30,822kg，也为您节约2686.91元电费。</text>
+  </view>
+  <view>
+    <view class='form'>
+      <view class='formhead'>
+        <text class='formhead_text_date'>日期</text>
+      </view>
+      <view class='formhead'>
+        <text class='formhead_text_generation'>发电量</text>
+      </view>
+    </view>
+    <block wx:for="{{listData}}" wx:key="{{code}}">
+      <view class='data_form'>
+        <view class='formhead'>
+          <text class='formhead_text_date'>{{item.date}}</text>
+        </view>
+        <view class='formhead'>
+          <text class='formhead_text_generation'>{{item.generation}}</text>
+        </view>
+      </view>
+    </block>
+
+    <!-- <view class='data_form'>
+      <view class='formhead'>
+        <text class='formhead_text_date'>2018年4月13日</text>
+      </view>
+      <view class='formhead'>
+        <text class='formhead_text_generation'>12kW·h</text>
+      </view>
+    </view>
+    <view class='data_form'>
+      <view class='formhead'>
+        <text class='formhead_text_date'>2018年4月12日</text>
+      </view>
+      <view class='formhead'>
+        <text class='formhead_text_generation'>10kW·h</text>
+      </view>
+    </view>
+    <view class='data_form'>
+      <view class='formhead'>
+        <text class='formhead_text_date'>2018年4月11日</text>
+      </view>
+      <view class='formhead'>
+        <text class='formhead_text_generation'>9kW·h</text>
+      </view>
+    </view>
+    <view class='data_form'>
+      <view class='formhead'>
+        <text class='formhead_text_date'>2018年4月10日</text>
+      </view>
+      <view class='formhead'>
+        <text class='formhead_text_generation'>13kW·h</text>
+      </view>
+    </view> -->
+  </view>
+</view>

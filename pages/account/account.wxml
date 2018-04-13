@@ -21,7 +21,7 @@
     <view class='block'>
       体现
     </view> -->
-    <view class='check_block'>
+    <view bindtap='_toCheck' class='check_block'>
       <image mode='aspectFill' src='../../images/check.png'></image>
       <label class='check_text'>查询历史流水</label>
       <image style='margin-left: 370rpx;' mode='aspectFill' src='../../images/next.png'></image>

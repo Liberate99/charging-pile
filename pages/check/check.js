@@ -1,4 +1,3 @@
-
 // pages/check/check.js
 Page({
 
@@ -6,8 +5,36 @@ Page({
    * 页面的初始数据
    */
   data: {
-    windowWidth: 0,
-    windowHeight: 0,
+    listData:[
+      { "date": "2018年4月13号", "generation": "12kW·h" },
+      { "date": "2018年4月12号", "generation": "13kW·h" },
+      { "date": "2018年4月11号", "generation": "11kW·h" },
+      { "date": "2018年4月10号", "generation": "10kW·h" },
+      { "date": "2018年4月9号", "generation": "14kW·h" },
+      { "date": "2018年4月8号", "generation": "12kW·h" },
+      { "date": "2018年4月7号", "generation": "11kW·h" },
+      { "date": "2018年4月6号", "generation": "10kW·h" },
+      { "date": "2018年4月5号", "generation": "14kW·h" },
+      { "date": "2018年4月4号", "generation": "13kW·h" },
+      { "date": "2018年4月3号", "generation": "11kW·h" },
+      { "date": "2018年4月2号", "generation": "12kW·h" },
+      { "date": "2018年4月1号", "generation": "13kW·h" },
+      { "date": "2018年3月31号", "generation": "12kW·h" },
+      { "date": "2018年3月30号", "generation": "11kW·h" },
+      { "date": "2018年3月29号", "generation": "14kW·h" },
+      { "date": "2018年3月28号", "generation": "10kW·h" },
+      { "date": "2018年3月27号", "generation": "9kW·h" },
+      { "date": "2018年3月26号", "generation": "15kW·h" },
+      { "date": "2018年3月25号", "generation": "10kW·h" },
+      { "date": "2018年3月24号", "generation": "15kW·h" },
+      { "date": "2018年3月23号", "generation": "12kW·h" },
+      { "date": "2018年3月22号", "generation": "14kW·h" },
+      { "date": "2018年3月21号", "generation": "13kW·h" },
+      { "date": "2018年3月20号", "generation": "12kW·h" },
+      { "date": "2018年3月19号", "generation": "11kW·h" },
+      { "date": "2018年3月18号", "generation": "14kW·h" },
+      { "date": "2018年3月17号", "generation": "13kW·h" },
+    ]
   },
 
   /**
@@ -17,17 +44,16 @@ Page({
     var that = this;
     wx.getSystemInfo({
       success: function (res) {
-        var win_width = res.windowWidth;
-        var win_height = res.windowHeight;
+        
         that.setData({
-          windowWidth: win_width,
-          windowHeight: win_height,
+         
         })
-        //console.log(res.windowWidth)  
-        //console.log(res.windowHeight) 
+        
       }
     })
   },
+
+  
 
   /**
    * 生命周期函数--监听页面初次渲染完成
