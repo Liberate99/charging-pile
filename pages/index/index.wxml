@@ -60,10 +60,5 @@
             <text class='progress_info'> {{progress_txt}}</text>
         </view>     
     </view>
-
   </view>
-
-  <!-- <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
-  </view> -->
 </view>
