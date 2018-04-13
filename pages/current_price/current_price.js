@@ -6,6 +6,17 @@ Page({
    * 页面的初始数据
    */
   data: {
+    windowWidth: 0,
+    windowHeight: 0,
+    listData: [
+      { "date": "2017年11月13号15h", "price": "0.7元" },
+      { "date": "2017年11月13号12h", "price": "0.5元" },
+      { "date": "2017年11月13号9h", "price": "0.6元" },
+      { "date": "2017年11月13号6h", "price": "0.6元" },
+      { "date": "2017年11月13号3h", "price": "0.8元" },
+      { "date": "2017年11月13号0h", "price": "0.6元" },
+      { "date": "2017年11月12号21h", "price": "0.6元" }
+    ]
   },
 
   /**
@@ -15,7 +26,11 @@ Page({
     var that = this;
     wx.getSystemInfo({
       success: function (res) {
+        var win_width = res.windowWidth;
+        var win_height = res.windowHeight;
         that.setData({
+          windowWidth: win_width,
+          windowHeight: win_height,
         })
       }
     })

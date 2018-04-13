@@ -1,1 +1,26 @@
-dsafsda
+<view style='width={{windowHeight}}px; display: flex; flex-direction: column;align-items: center;  padding: 1rpx 0;box-sizing: border-box; background-color: #EBEBEB;'>
+  <view class='curve_graph'>
+    <image mode='scaleToFill' src='../../images/current_price_curve_graph.png'>
+    </image>
+  </view>
+  <view>
+    <view class='form'>
+      <view class='formhead'>
+        <text class='formhead_text_date'>日期</text>
+      </view>
+      <view class='formhead'>
+        <text class='formhead_text_generation'>发电量</text>
+      </view>
+    </view>
+    <block wx:for="{{listData}}" wx:key="{{code}}">
+      <view class='data_form'>
+        <view class='formhead'>
+          <text class='formhead_text_date'>{{item.date}}</text>
+        </view>
+        <view class='formhead'>
+          <text class='formhead_text_generation'>{{item.price}}</text>
+        </view>
+      </view>
+    </block>
+  </view>
+</view>

@@ -1,0 +1,54 @@
+.curve_graph {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 330rpx;
+  background-color: yellow;
+  justify-content: flex-start; 
+}
+
+.curve_graph image {
+  height: 330rpx;
+  width: 100%;
+}
+
+.form {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  margin-top: 10rpx;
+  width: 750rpx;
+  border-top: solid #EBEBEB 1rpx;
+  border-bottom: solid #EBEBEB 1rpx;
+}
+
+.formhead {
+  border: solid #EBEBEB 1rpx;
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  height: 70rpx;
+}
+
+.formhead_text_date {
+  margin-top: 13rpx;
+  font-size: 85%;
+  color: gray;
+  font-weight: normal;
+}
+
+.formhead_text_generation {
+  margin-top: 13rpx;
+  font-size: 85%;
+  color: gray;
+  font-weight: normal;
+}
+
+.data_form {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  margin-top: 0rpx;
+  width: 100%;
+  border-bottom: solid #F4F5F8 1rpx;
+}
