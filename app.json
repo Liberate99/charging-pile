@@ -1,7 +1,8 @@
 {
   "pages":[
     "pages/index/index",
-    "pages/index/account"
+    "pages/account/account",
+    "pages/check/check"
   ],
   
   "window":{
@@ -20,7 +21,7 @@
         "selectedIconPath": "images/main_selected.png"
       },
       {
-        "pagePath": "pages/index/account",
+        "pagePath": "pages/account/account",
         "text": "我的",
         "iconPath": "images/user.png",
         "selectedIconPath": "images/user_selected.png"
