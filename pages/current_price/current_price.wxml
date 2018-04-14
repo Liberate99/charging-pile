@@ -9,7 +9,7 @@
         <text class='formhead_text_date'>日期</text>
       </view>
       <view class='formhead'>
-        <text class='formhead_text_generation'>发电量</text>
+        <text class='formhead_text_generation'>单位电价</text>
       </view>
     </view>
     <block wx:for="{{listData}}" wx:key="{{code}}">

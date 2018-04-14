@@ -20,6 +20,14 @@ Page({
       url: '../current_price/current_price',
     })
   },
+  /**
+   * index跳转到check页面
+   */
+  _toCheck: function () {
+    wx.navigateTo({
+      url: '../check/check'
+    })
+  },
   //大圆 https://www.cnblogs.com/mingforyou/p/4476183.html
   //https://segmentfault.com/a/1190000013219501
   drawProgressbg: function () {

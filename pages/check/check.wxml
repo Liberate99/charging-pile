@@ -1,7 +1,10 @@
 <!-- http://mydown.yesky.com/news/87296654.html -->
 <view>
   <view class='analysis'>
-    <text class='analysis_text'>自2018年2月14日起，您的账户累计发电量1535.38kW·h，为地球减少碳排放30,822kg，也为您节约2686.91元电费。</text>
+    <text class='analysis_text'>自2018年2月14日起</text>
+    <text class='analysis_text'>您的账户累计发电量<text class='.analysis_text_number'>1535.38</text>kW·h</text>
+    <text class='analysis_text'>为地球减少碳排放<text class='.analysis_text_number'>30,822</text>kg</text>
+    <text class='analysis_text'>也为您节约<text class='.analysis_text_number'>2686.91</text>元电费</text>
   </view>
   <view>
     <view class='form'>

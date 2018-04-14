@@ -4,12 +4,21 @@
   background-color: white;
   width: 100%;
   padding: 30rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .analysis_text {
   font-size: 85%;
   color: gray;
   font-weight: normal;
+}
+
+.analysis_text_number {
+  color: deepskyblue;
+  font-size: 95%;
+  font-weight: bolder;
 }
 
 .form {

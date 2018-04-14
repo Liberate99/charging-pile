@@ -16,7 +16,7 @@
       </view>
     </view>
 
-    <view class="daily-generation">
+    <view bindtap='_toCheck' class="daily-generation">
       <view class="dalily-consume-container">
         <text class="daily-text">今日发电</text>
         <view>
@@ -30,7 +30,9 @@
   <view class="picture_view">
     <!-- <image mode='aspectFill' src='../../images/th.jpeg'></image> -->
     <view class='picture_view_above'>
-      <text class='pictur_text'>今天发电<text class='pictur_text_number'>1.34</text>kW·h，减少碳排放<text class='pictur_text_number'>26.9</text>kg，超过全国<text class='pictur_text_number'>58</text>%的用户。</text>
+      <text class='pictur_text'>今天发电<text class='pictur_text_number'>1.34</text>kW·h</text>
+      <text class='pictur_text'>减少碳排放<text class='pictur_text_number'>26.9</text>kg</text>
+      <text class='pictur_text'>超过全国<text class='pictur_text_number'>58</text>%的用户</text>
     </view>
   </view>
   

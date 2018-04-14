@@ -88,12 +88,18 @@
 }
 
 .picture_view_above {
+  
+  flex-direction: column;
   margin-top: 20px;
   width: 90%;
+  display: flex;
+  justify-content: center;
 }
 
 .pictur_text {
-  margin-bottom: 0rpx;
+  width: 100%;
+  display: flex;
+  justify-content: center;
   color: white;
   font-size: 100%;
   font-weight: bolder;

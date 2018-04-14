@@ -23,8 +23,8 @@
     </view> -->
     <view bindtap='_toCheck' class='check_block'>
       <image mode='aspectFill' src='../../images/check.png'></image>
-      <label class='check_text'>查询历史流水</label>
-      <image style='margin-left: 370rpx;' mode='aspectFill' src='../../images/next.png'></image>
+      <label class='check_text'>历史发电</label>
+      <image style='margin-left: 435rpx;' mode='aspectFill' src='../../images/next.png'></image>
     </view>
     <view class='total_generation_block'>
       <image mode='aspectFill' src='../../images/generation.png'></image>
